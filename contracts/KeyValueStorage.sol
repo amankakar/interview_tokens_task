@@ -1,4 +1,6 @@
-pragma solidity 0.6.8;
+//SPDX-License-Identifier: UNLICENSED
+
+pragma solidity ^0.4.18;
 
 contract KeyValueStorage {
     mapping(address => mapping(bytes32 => uint256)) _uintStorage;

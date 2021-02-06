@@ -1,42 +1,42 @@
 {
   "contractName": "StorageState",
   "abi": [],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/aman/Desktop/Etherum/upradeableToken/contracts/StorageState.sol\":\"StorageState\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/aman/Desktop/Etherum/upradeableToken/contracts/KeyValueStorage.sol\":{\"keccak256\":\"0x7d77e26729e1f986ceb05784248d81ec5db6902c883ebe0ef4ad38ece5004f71\",\"urls\":[\"bzz-raw://7544ef7dfc4311d3fdd1b24f5a1776389d7d6c8d83ebbf1a6d3431611c3ae0c0\",\"dweb:/ipfs/QmXPJxwLdb7E6pujuygcX8tu2WTApE1N6zFNWrHxPEZpyZ\"]},\"/home/aman/Desktop/Etherum/upradeableToken/contracts/StorageState.sol\":{\"keccak256\":\"0xe1667c837746db6ee66896f19a828737af68b7e5d867133cd60ca24e0e06f508\",\"urls\":[\"bzz-raw://759cbae0d3757d9caa1b8ea76d8b90e634caadd2116d5453eeb9e1052a9d4cfe\",\"dweb:/ipfs/QmYcfDJmDBULkoSsrLBg5fi8K2Fk3RHzdCcemuuXUam1c9\"]}},\"version\":1}",
-  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a7231582083fa4d8ecc5ce7c45b46b62258d16a1d64a72259cd4ef31504206cb4c859302464736f6c63430005100032",
-  "deployedBytecode": "0x6080604052600080fdfea265627a7a7231582083fa4d8ecc5ce7c45b46b62258d16a1d64a72259cd4ef31504206cb4c859302464736f6c63430005100032",
-  "sourceMap": "58:55:7:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;58:55:7;;;;;;;",
-  "deployedSourceMap": "58:55:7:-;;;;;",
-  "source": "pragma solidity ^0.5.16;\nimport \"./KeyValueStorage.sol\";\n\ncontract StorageState {\n    KeyValueStorage _storage;\n}\n",
-  "sourcePath": "/home/aman/Desktop/Etherum/upradeableToken/contracts/StorageState.sol",
+  "metadata": "{\"compiler\":{\"version\":\"0.4.18+commit.9cf6e910\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/aman/Desktop/Etherum/interviewTokens/contracts/StorageState.sol\":\"StorageState\"},\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/aman/Desktop/Etherum/interviewTokens/contracts/KeyValueStorage.sol\":{\"keccak256\":\"0x3eeef02ce16b9bcd12875357f6741c529c7babe018d8fe1033e834983a510448\",\"urls\":[\"bzzr://de0b55bc6b606ddaf67e2f154cc051bf7c620d4d240a6b79c02f512a7a9cb0fc\"]},\"/home/aman/Desktop/Etherum/interviewTokens/contracts/StorageState.sol\":{\"keccak256\":\"0x1c02eefaf97f2d7776fd603bfa784e109add74dbeaa5460315100f98a4696428\",\"urls\":[\"bzzr://13e6ffdfa7165e871363699bcea25d00857d635b44d14742f30b9594ee87e530\"]}},\"version\":1}",
+  "bytecode": "0x60606040523415600e57600080fd5b603580601b6000396000f3006060604052600080fd00a165627a7a72305820aae00811df37d19df1c8ec6774d4b5d023ddaef3f46bd15c40951903746f8eea0029",
+  "deployedBytecode": "0x6060604052600080fd00a165627a7a72305820aae00811df37d19df1c8ec6774d4b5d023ddaef3f46bd15c40951903746f8eea0029",
+  "sourceMap": "97:55:10:-;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "97:55:10:-;;;;;",
+  "source": "//SPDX-License-Identifier: UNLICENSED\n\npragma solidity ^0.4.18;\nimport \"./KeyValueStorage.sol\";\n\ncontract StorageState {\n    KeyValueStorage _storage;\n}\n",
+  "sourcePath": "/home/aman/Desktop/Etherum/interviewTokens/contracts/StorageState.sol",
   "ast": {
-    "absolutePath": "/home/aman/Desktop/Etherum/upradeableToken/contracts/StorageState.sol",
+    "absolutePath": "/home/aman/Desktop/Etherum/interviewTokens/contracts/StorageState.sol",
     "exportedSymbols": {
       "StorageState": [
-        588
+        1260
       ]
     },
-    "id": 589,
+    "id": 1261,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 584,
+        "id": 1256,
         "literals": [
           "solidity",
           "^",
-          "0.5",
-          ".16"
+          "0.4",
+          ".18"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:24:7"
+        "src": "39:24:10"
       },
       {
-        "absolutePath": "/home/aman/Desktop/Etherum/upradeableToken/contracts/KeyValueStorage.sol",
+        "absolutePath": "/home/aman/Desktop/Etherum/interviewTokens/contracts/KeyValueStorage.sol",
         "file": "./KeyValueStorage.sol",
-        "id": 585,
+        "id": 1257,
         "nodeType": "ImportDirective",
-        "scope": 589,
-        "sourceUnit": 289,
-        "src": "25:31:7",
+        "scope": 1261,
+        "sourceUnit": 934,
+        "src": "64:31:10",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -46,35 +46,35 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 588,
+        "id": 1260,
         "linearizedBaseContracts": [
-          588
+          1260
         ],
         "name": "StorageState",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 587,
+            "id": 1259,
             "name": "_storage",
             "nodeType": "VariableDeclaration",
-            "scope": 588,
-            "src": "86:24:7",
+            "scope": 1260,
+            "src": "125:24:10",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_KeyValueStorage_$288",
+              "typeIdentifier": "t_contract$_KeyValueStorage_$933",
               "typeString": "contract KeyValueStorage"
             },
             "typeName": {
               "contractScope": null,
-              "id": 586,
+              "id": 1258,
               "name": "KeyValueStorage",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 288,
-              "src": "86:15:7",
+              "referencedDeclaration": 933,
+              "src": "125:15:10",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_KeyValueStorage_$288",
+                "typeIdentifier": "t_contract$_KeyValueStorage_$933",
                 "typeString": "contract KeyValueStorage"
               }
             },
@@ -82,41 +82,41 @@
             "visibility": "internal"
           }
         ],
-        "scope": 589,
-        "src": "58:55:7"
+        "scope": 1261,
+        "src": "97:55:10"
       }
     ],
-    "src": "0:114:7"
+    "src": "39:114:10"
   },
   "legacyAST": {
-    "absolutePath": "/home/aman/Desktop/Etherum/upradeableToken/contracts/StorageState.sol",
+    "absolutePath": "/home/aman/Desktop/Etherum/interviewTokens/contracts/StorageState.sol",
     "exportedSymbols": {
       "StorageState": [
-        588
+        1260
       ]
     },
-    "id": 589,
+    "id": 1261,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 584,
+        "id": 1256,
         "literals": [
           "solidity",
           "^",
-          "0.5",
-          ".16"
+          "0.4",
+          ".18"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:24:7"
+        "src": "39:24:10"
       },
       {
-        "absolutePath": "/home/aman/Desktop/Etherum/upradeableToken/contracts/KeyValueStorage.sol",
+        "absolutePath": "/home/aman/Desktop/Etherum/interviewTokens/contracts/KeyValueStorage.sol",
         "file": "./KeyValueStorage.sol",
-        "id": 585,
+        "id": 1257,
         "nodeType": "ImportDirective",
-        "scope": 589,
-        "sourceUnit": 289,
-        "src": "25:31:7",
+        "scope": 1261,
+        "sourceUnit": 934,
+        "src": "64:31:10",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -126,35 +126,35 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 588,
+        "id": 1260,
         "linearizedBaseContracts": [
-          588
+          1260
         ],
         "name": "StorageState",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 587,
+            "id": 1259,
             "name": "_storage",
             "nodeType": "VariableDeclaration",
-            "scope": 588,
-            "src": "86:24:7",
+            "scope": 1260,
+            "src": "125:24:10",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_KeyValueStorage_$288",
+              "typeIdentifier": "t_contract$_KeyValueStorage_$933",
               "typeString": "contract KeyValueStorage"
             },
             "typeName": {
               "contractScope": null,
-              "id": 586,
+              "id": 1258,
               "name": "KeyValueStorage",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 288,
-              "src": "86:15:7",
+              "referencedDeclaration": 933,
+              "src": "125:15:10",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_KeyValueStorage_$288",
+                "typeIdentifier": "t_contract$_KeyValueStorage_$933",
                 "typeString": "contract KeyValueStorage"
               }
             },
@@ -162,19 +162,19 @@
             "visibility": "internal"
           }
         ],
-        "scope": 589,
-        "src": "58:55:7"
+        "scope": 1261,
+        "src": "97:55:10"
       }
     ],
-    "src": "0:114:7"
+    "src": "39:114:10"
   },
   "compiler": {
     "name": "solc",
-    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+    "version": "0.4.18+commit.9cf6e910.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.3.1",
-  "updatedAt": "2021-02-04T06:55:45.153Z",
+  "schemaVersion": "3.2.5",
+  "updatedAt": "2021-02-06T07:51:17.974Z",
   "devdoc": {
     "methods": {}
   },

@@ -1,4 +1,6 @@
-pragma solidity 0.6.8;
+//SPDX-License-Identifier: UNLICENSED
+
+pragma solidity ^0.4.18;
 
 /**
  * @title Ownable
@@ -18,7 +20,7 @@ contract Ownable {
      * @dev The Ownable constructor sets the original `owner` of the contract to the sender
      * account.
      */
-    constructor() public {
+    function Ownable() public {
         owner = msg.sender;
     }
 
@@ -37,7 +39,7 @@ contract Ownable {
      */
     function transferOwnership(address newOwner) public onlyOwner {
         require(newOwner != address(0));
-        emit OwnershipTransferred(owner, newOwner); // solhint-disable-line
+        OwnershipTransferred(owner, newOwner); // solhint-disable-line
         owner = newOwner;
     }
 }

@@ -1,4 +1,4 @@
-pragma solidity 0.6.8;
+pragma solidity ^0.4.18;
 
 import "./SafeMath.sol";
 import "./StorageState.sol";

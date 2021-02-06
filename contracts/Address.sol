@@ -1,4 +1,6 @@
-pragma solidity 0.6.8;
+//SPDX-License-Identifier: UNLICENSED
+
+pragma solidity ^0.4.18;
 
 /**
  * @dev Collection of functions related to the address type,
@@ -17,11 +19,7 @@ library Address {
         return size > 0;
     }
 
-    function toPayable(address account)
-        internal
-        pure
-        returns (address payable)
-    {
+    function toPayable(address account) internal pure returns (address) {
         return address(uint160(account));
     }
 }

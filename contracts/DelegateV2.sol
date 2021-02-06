@@ -1,4 +1,4 @@
-pragma solidity 0.6.8;
+pragma solidity ^0.4.18;
 
 import "./DelegateV1.sol";
 import "./StorageState.sol";
